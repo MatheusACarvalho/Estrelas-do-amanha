@@ -1,0 +1,10 @@
+@media(width >= 80em) {
+   #address-info{
+    & .desktop-row{
+      flex-direction: row;
+    }
+    
+  }
+  
+
+}

@@ -1,0 +1,27 @@
+#logo {
+  flex-direction: column;
+  position: sticky;
+
+  & img:first-child {
+    width: 12.688rem;
+  }
+
+  & img {
+    width: 19.5rem;
+  }
+}
+
+@media(width >= 80em) {
+  #logo{
+  align-items: flex-start;
+  gap: 8px;
+
+    & img:first-child {
+      width: 12.688rem;
+    }
+
+    & img {
+      width: 31rem;
+    }
+    }
+}

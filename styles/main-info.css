@@ -1,0 +1,14 @@
+#main-info{
+  padding-block-start: 1.5rem;
+}
+
+.main-info-header{
+  padding-block-start: 1.5rem;
+  padding-block-end: 3rem;
+}
+
+@media (width>= 80em) {
+  #main-info{
+    padding-block-start: 4rem;
+  }
+}

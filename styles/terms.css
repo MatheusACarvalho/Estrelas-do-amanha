@@ -1,0 +1,32 @@
+#terms{
+  & label {
+    width: 260px;
+  }
+
+
+  & .actions-wrapper{
+    & .btn-secondary, .btn-primary {
+      display: flex;
+      justify-content: center;  
+      width: calc(100% - 3rem);
+    }
+  }
+
+  
+}
+
+@media(width >= 80em) {
+  #terms{
+    & label {
+      width: 100%;
+    }
+  }
+  
+  & .actions-wrapper{
+    flex-direction: row; 
+    width: 528px;
+    justify-content: flex-end;
+
+  }
+  
+}
